@@ -34,7 +34,7 @@ def create_wallpaper():
             line += 1
             img.save('result.png', quality = 100)
         pass
-    os.system("gsettings set org.gnome.desktop.background picture-uri '/home/brunoms/Documents/KanjiWallpaper/result.png'")
+    #os.system("gsettings set org.gnome.desktop.background picture-uri '/home/USER/Documents/KanjiWallpaper/result.png'")
 create_wallpaper()
     
     
